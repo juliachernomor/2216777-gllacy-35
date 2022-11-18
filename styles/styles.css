@@ -703,6 +703,7 @@ margin-top: -51px;
 
 .helpful-tips {
   display: flex;
+  margin-bottom: 80px;
 }
 
 .helpful-tips-wrapper1 {
@@ -734,6 +735,72 @@ margin-top: -51px;
 
 }
 .helpful-tips-wrapper2 {
-  width:570px ;
-  border-radius:16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 570px;
+  min-height: 224px;
+  background-image: url("../images/border-lines.png");
+  background-repeat: repeat;
+  border-radius: 16px;
+}
+
+.helpful-tips-wrapper-wrapper2 {
+  text-align: left;
+  width: 558px;
+  min-height: 212px;
+  background-color: #fff;
+  border-radius: 16px ;
+}
+
+.helpful-tips-subscribe {
+  padding: 26px 26px 0  26px ;
+  margin: 0;
+  margin-bottom: 42px ;
+}
+
+.newsletter-form {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  min-height: 52px;
+  padding: 0 26px 26px 26px;
+  margin: 0;
+}
+
+.newsletter-email {
+  margin: 0;
+}
+
+.field {
+  width: 332px;
+  min-height: 48px;
+  box-sizing: border-box;
+  padding: 14px 16px;
+  flex-grow: 1;
+  margin: 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+
+.newsletter-button {
+  width: 160px;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  padding: 12px 32px;
+  box-sizing: border-box;
+  background-color: #ff2f64;
+  border-radius: 26px;
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fcfcfc;
+  text-decoration: none;
+  border: 4px solid #ffcbd8;
+  box-shadow: 0 4px 12px 0 rgba(45, 52, 64, 0.1);
+  cursor: pointer;
 }
