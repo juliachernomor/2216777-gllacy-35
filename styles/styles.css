@@ -344,57 +344,57 @@ fill: #2d3440;
 
 .slider-item-active {
   position: relative;
-    width: 348px;
-    box-sizing: border-box;
-    height: 100%;
+  width: 348px;
+  box-sizing: border-box;
+  height: 100%;
   }
 
   .slider-image1 {
-    position: relative;
-    display: block;
-    margin: 21px 21px 0 21px;
-    object-fit: content;
-    z-index: 2;
+  position: relative;
+  display: block;
+  margin: 21px 21px 0 21px;
+  object-fit: content;
+  z-index: 2;
   }
 
-  .slider-item-active::after {
-    position: absolute;
-    content: "";
-    width:312px;
-    height: 312px;
-    background-color: #ffcbd8;
-    border-radius: 50%;
-    top: 122px;
-    right: calc(100% - 330px);
-    z-index: 0;
+.slider-item-active::after {
+  position: absolute;
+  content: "";
+  width:312px;
+  height: 312px;
+  background-color: #ffcbd8;
+  border-radius: 50%;
+  top: 122px;
+  right: calc(100% - 330px);
+  z-index: 0;
 }
 
-  .slider-item-another {
-    position: relative;
-    width: 100px;
-    box-sizing: border-box;
-    min-height: 150px;
-    padding-top: 183px;
+.slider-item-another {
+  position: relative;
+  width: 100px;
+  box-sizing: border-box;
+  min-height: 150px;
+  padding-top: 183px;
   }
 
-  .slider-image2,.slider-image3{
-    position: relative;
-    display: block;
-    margin: 25px 17px 0 17px;
-    object-fit: contain;
-    z-index: 2;
+.slider-image2,.slider-image3{
+  position: relative;
+  display: block;
+  margin: 25px 17px 0 17px;
+  object-fit: contain;
+  z-index: 2;
   }
 
-  .slider-item-another::after {
-    position: absolute;
-    content: "";
-    width:100px;
-    height: 100px;
-    background-color: #ffcbd8;
-    border-radius: 50%;
-    top: 229px;
-    right: calc(100% - 100px);
-    z-index: 0;
+.slider-item-another::after {
+  position: absolute;
+  content: "";
+  width:100px;
+  height: 100px;
+  background-color: #ffcbd8;
+  border-radius: 50%;
+  top: 229px;
+  right: calc(100% - 100px);
+  z-index: 0;
 }
 
 .slider-wrapper {
@@ -412,7 +412,9 @@ fill: #2d3440;
 }
 
 .slider-button {
-  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 38px;
   height: 38px;
   color: #ffffff;
@@ -424,10 +426,7 @@ fill: #2d3440;
 
 .next,
 .prev {
-  position: absolute;
   fill:#fcfcfc;
-  top: 10px;
-  right: 10px;
 }
 
 .slider-button:hover,
@@ -514,8 +513,9 @@ fill: #2d3440;
 .social-youtube,
 .social-vk,
 .social-tg {
-  position: relative;
-  display: block;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   height: 28px;
   width: 28px;
   margin: 0;
@@ -523,14 +523,6 @@ fill: #2d3440;
   margin-left: 12px;
   border-radius: 50%;
   cursor: pointer;
-}
-
-.tg,
-.vk,
-.youtube {
-  position: absolute;
-  top: center;
-  right: center;
 }
 
 .social-youtube:hover,
@@ -617,6 +609,7 @@ fill: rgba(252, 252, 252, 0.5);
   min-width: 176px;
   min-height: 44px;
   display: flex;
+  justify-content: center;
   align-items: center;
   padding: 12px 32px;
   box-sizing: border-box;
